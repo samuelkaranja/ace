@@ -315,6 +315,10 @@
 	padding: 70px 0 0 0;
 }
 
+.cl-m p{
+	text-align: left;
+}
+
 .cl-m i{
 	color: black;
 	padding-right: 5px;
@@ -333,6 +337,7 @@
 
 .bn p{
 	color: black;
+	text-align: left;
 }
 
 .bn i{
@@ -354,6 +359,31 @@
 
 .tg .row{
 	margin: 0;
+}
+
+.cal{
+	padding: 2%;
+	background: #494949;
+	color: #fff;
+}
+
+.cal h1{
+	padding-bottom: 2%;
+}
+
+.cal p{
+	text-align: left!important;
+	line-height: 1.7;
+}
+
+.cal i{
+	padding-right: 8px;
+
+}
+
+.bd{
+	border: 1px solid #309cea;
+	padding: 5px 5px 10px 30px;
 }
 
 /*.........Life Cover........*/
