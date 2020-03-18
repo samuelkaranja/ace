@@ -50,3 +50,308 @@
 .dropdown-item:hover{
 	color: #f89828;
 }
+
+/*.........Classes.......*/
+
+.t-center{
+	text-align: center;
+}
+
+.t-left{
+	text-align: left;
+}
+
+.t-right{
+	text-align: right;
+}
+
+/*.........Banner........*/
+
+.bn-t{
+	position: absolute;
+	margin-top: 10%; 
+	z-index: 1000;
+}
+
+.bn-t h1{
+	font-weight: 600;
+	color: #fff;
+	margin: 0;
+	font-size: 3.4em;
+}
+
+.bn-t h2{
+	font-weight: 300;
+	padding-top: 5px;
+	color: #fff;
+	font-size: 1.8em;
+}
+
+.mg-7{
+	margin-top: 8%;
+}
+
+/*........Medical Cover........*/
+
+.md{
+	width: 100%;
+	height: 55vh;
+	background: linear-gradient(
+      rgba(0,0,0,0.4), 
+      rgba(0,0,0,0.4)),
+	url("../img/medical.jpeg");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.qt h1{
+	font-size: 28px;
+	font-weight: 400;
+	padding: 10px 0 0 0;
+}
+
+.qt p{
+	width: 500px;
+	line-height: 1.7;
+	padding: 5px 0 20px 0;
+	font-size: 17px;
+	font-weight: 400; 
+}
+
+.cl-g img{
+	width: 450px;
+	height: 400px;
+}
+
+.cl-t h1{
+	padding: 40px 0 0 0;
+	font-size: 30px;
+}
+
+.cl-t p{
+	text-align: left;
+	line-height: 1.7;
+}
+
+.cl-m h1{
+	font-size: 22px;
+	padding: 70px 0 0 0;
+}
+
+.cl-m i{
+	color: black;
+	padding-right: 5px;
+}
+
+.cl-m img{
+	width: 450px;
+	height: 500px;
+	padding: 70px 0 0 0;
+}
+
+.bn h1{
+	padding: 8px 0 0 0;
+	font-size: 22px;
+}
+
+.bn p{
+	color: black;
+}
+
+.bn i{
+	color: black;
+	padding-right: 5px;
+}
+
+.med{
+	background: url("../img/medical2.jpg");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+.tg{
+	margin: 50px 0 0 0;
+}
+
+.tg .row{
+	margin: 0;
+}
+
+/*.........Life Cover........*/
+
+.life{
+	width: 100%;
+	height: 55vh;
+	background: linear-gradient(
+      rgba(0,0,0,0.4), 
+      rgba(0,0,0,0.4)),
+	url("../img/care.jpg");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.lf{
+	padding: 30px 0 80px 0;
+}
+
+.lf-p h1{
+	font-size: 18px;
+	padding: 120px 0 8px 0;
+}
+
+.lf-p p{
+	line-height: 1.8; 
+}
+
+.lf-g{
+	text-align: center;
+}
+
+.lf-g img{
+	padding: 50px 0 0 0;
+	width: 300px;
+	height: 350px;
+}
+
+/*.........Business Cover........*/
+
+.business{
+	width: 100%;
+	height: 55vh;
+	background: linear-gradient(
+      rgba(0,0,0,0.4), 
+      rgba(0,0,0,0.4)),
+	url("../img/business.jpg");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.sc .row{
+	margin: 0;
+}
+
+.bn-l{
+	background: url("../img/business1.jpg");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+.bn-2{
+	background: url("../img/business2.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+.sc{
+	margin: 50px 0 0 0;
+}
+
+.cl{
+	padding: 30px;
+	background: #494949;
+	color: #fff;
+}
+
+.cl h1{
+	padding-bottom: 20px;
+	font-size: 21px;
+	text-align: center;
+}
+
+.cl p{
+	text-align: center !important;
+	line-height: 1.7;
+	padding: 0 70px;
+	color: #d2d2d2;
+}
+
+.cl i{
+	padding-right: 8px;
+}
+
+.db{
+	border: 1px solid #309cea;
+	padding: 35px 50px 30px 50px;
+}
+
+/*..........Footer...........*/
+
+footer{
+	padding: 70px;
+	background-color: green;
+	bottom:0;
+	width: 100%;
+	position: relative;
+}
+
+.icon{
+	text-align: center;
+}
+
+.icon h2{
+	padding: 0 0 25px 0;
+	color: #fff;
+	font-weight: 500;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.icon ul li{
+	display: inline-block;
+	border: 2px solid white;
+	margin-right: 8px;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+
+li i{
+	color: black;
+	padding: 10px;
+}
+
+.fa{
+	font-size: 18px;
+	color: #fff;
+}
+
+.fa-facebook{
+	color: blue;
+}
+
+.fa-youtube-play{
+	color: rgb(220,20,60);
+}
+
+.fa-instagram{
+	background-color: ; 
+}
+
+.fa-twitter{
+	color: rgba(29,161,242,1.00);
+}
+
+.textwidget p{
+	color: #fff;
+	font-size: 18px;
+}
+
+.policy p{
+	color: #fff;
+	font-weight: 400;
+	font-size: 1em;
+}
