@@ -80,9 +80,9 @@ html,body{
 }
 
 .intro img{
-	margin-top: 150px;
-	width: 550px;
-	height: 400px;
+	margin-top: 130px;
+	width: 650px;
+	height: 500px;
 }
 
 .intro h2{
@@ -267,7 +267,8 @@ html,body{
 /*...........Why Us..........*/
 
 .abt{
-	padding-bottom: 60px;
+	padding-top: 20px;
+	padding-bottom: 80px;
 }
 
 .abt h2{
