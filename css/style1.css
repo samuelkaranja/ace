@@ -54,7 +54,7 @@
 }
 
 .med h2{
-	padding-top: 90px;
+	padding-top: 70px;
 	padding-bottom: 10px;
 	font-size: 45px;
 	color: green;
@@ -64,10 +64,11 @@
 	font-size: 20px;
 	font-weight: 300;
 	padding-bottom: 10px;
+	line-height: 1.7;
 }
 
 .med img{
-	width: 500px;
+	width: 520px;
 	height: 450px;
 }
 
@@ -76,6 +77,110 @@
 	color: #fff;
 	border-radius: 100px;
 	padding: 5px 20px;
+}
+
+/*.........Car Cover..........*/
+
+.cp h1{
+	padding: 80px 0 5px 0;
+	font-size: 22px;
+}
+
+.cp p{
+	width: 500px;
+	font-weight: 400;
+	padding: 0 0 40px 0;
+}
+
+/*.cb h1{
+	padding: 90px 0 0 0;
+	font-size: 28px;
+	font-weight: 400;
+	width: 300px;
+}
+
+.cb p{
+	width: 400px;
+}
+
+.cb img{
+	width: 450px;
+	height: 300px;
+}
+
+.cg{
+	padding: 130px 0; 
+}
+
+.cg img{
+	width: 450px;
+	height: 300px;
+}*/
+
+.cq{
+	padding: 60px 0 10px 0;
+}
+
+.cq h1{
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 0 0 0;
+}
+
+.cq p{
+	text-align: center;
+}
+
+.cq img{
+	width: 200px;
+	height: 150px;
+	display: block;
+	margin: auto;
+}
+
+.tg{
+	margin: 50px 0 0 0;
+}
+
+.tg .row{
+	margin: 0;
+}
+
+.cr{
+	background: url("../img/car3.jpg");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+.ck{
+	background: url("../img/crack.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+.sp{
+	padding: 30px;
+	background: #262626;
+	color: #fff;
+}
+
+.sp h1{
+	padding-bottom: 2%;
+	font-size: 44px;
+}
+
+.sp p{
+	text-align: center!important;
+	line-height: 1.7;
+}
+
+.bd{
+	border: 1px solid #309cea;
+	padding: 130px 10px;
 }
 
 /*..........Footer...........*/
