@@ -55,6 +55,7 @@
 
 .med{
 	margin-top: 150px;
+	margin-bottom: 50px;
 }
 
 .med h2{
@@ -84,13 +85,13 @@
 }
 
 .med_1 h3{
-	padding: 100px 0 0 0;
+	padding: 40px 0 0 0;
 	color: green;
 	font-weight: 700;
 }
 
 .med_1 p{
-	width: 500px;
+	width: 600px;
 	padding: 5px 0 30px 0;
 	font-size: 17px;
 }
@@ -102,13 +103,13 @@
 }
 
 .med_2 h1{
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 28px;
 	padding: 85px 0 5px 0;
 }
 
 .med_2 h2{
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 23px;
 	padding: 10px 0 5px 0;
 }
@@ -125,13 +126,13 @@
 }
 
 .med_3 h1{
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 25px;
 	padding: 150px 0 0 0;
 }
 
 .med_3 h2{
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 23px;
 	padding: 10px 0 5px 0;
 }
@@ -145,6 +146,10 @@
 	margin: 150px 0 0 0;
 	width: 500px;
 	height: 500px;
+}
+
+.p_color{
+	color: green;
 }
 
 /*.........Car Cover..........*/
@@ -320,3 +325,5 @@ li i{
 	font-weight: 400;
 	font-size: 1em;
 }
+
+/*............Page Loader..........*/
