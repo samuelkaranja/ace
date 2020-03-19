@@ -1,0 +1,149 @@
+.bg-light{
+	background: white!important;
+	padding-bottom: 15px;
+	width: 100%;
+	border-bottom: 1px solid lightgrey;
+}
+
+.navbar-brand{
+	padding-top: 15px;
+	padding-left: 80px;
+	padding-right: 10px;
+}
+
+.navbar-brand img{
+	width: 180px;
+	height: 65px;
+}
+
+.nav-item{
+	padding-left: 50px;
+	font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: #000000;
+	font-weight: 480;
+	font-family: sans-serif;
+	padding-top: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #f89828!important;
+}
+
+/*.dropdown-menu{
+	background-color: rgb(30,144,255);
+	border: none;
+}
+
+.dropdown-item{
+	padding: 5px 6px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.dropdown-item:hover{
+	color: #f89828;
+}*/
+
+/*.........Medical Cover..........*/
+
+.med{
+	margin-top: 150px;
+}
+
+.med h2{
+	padding-top: 90px;
+	padding-bottom: 10px;
+	font-size: 45px;
+	color: green;
+}
+
+.med p{
+	font-size: 20px;
+	font-weight: 300;
+	padding-bottom: 10px;
+}
+
+.med img{
+	width: 500px;
+	height: 450px;
+}
+
+.med .btn{
+	background-color: green;
+	color: #fff;
+	border-radius: 100px;
+	padding: 5px 20px;
+}
+
+/*..........Footer...........*/
+
+footer{
+	padding: 70px;
+	background-color: green;
+	bottom:0;
+	width: 100%;
+	position: relative;
+}
+
+.icon{
+	text-align: center;
+}
+
+.icon h2{
+	padding: 0 0 25px 0;
+	color: #fff;
+	font-weight: 500;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.icon ul li{
+	display: inline-block;
+	border: 2px solid white;
+	margin-right: 8px;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+
+li i{
+	color: black;
+	padding: 10px;
+}
+
+.fa{
+	font-size: 18px;
+	color: #fff;
+}
+
+.fa-facebook{
+	color: blue;
+}
+
+.fa-youtube-play{
+	color: rgb(220,20,60);
+}
+
+.fa-instagram{
+	background-color: ; 
+}
+
+.fa-twitter{
+	color: rgba(29,161,242,1.00);
+}
+
+.textwidget p{
+	color: #fff;
+	font-size: 18px;
+}
+
+.policy p{
+	color: #fff;
+	font-weight: 400;
+	font-size: 1em;
+}

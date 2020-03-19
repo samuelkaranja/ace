@@ -101,7 +101,9 @@ html,body{
 }
 
 .intro .btn{
-	border-radius: 10px;
+	border-radius: 100px;
+	background-color: green;
+	color: #fff;
 	padding: 8px 30px;
 }
 
@@ -210,14 +212,16 @@ html,body{
 /*...........Why Us..........*/
 
 .abt{
-	padding-bottom: 40px;
+	padding-bottom: 60px;
 }
 
 .abt h2{
 	text-align: center;
 	font-weight: 600;
+	font-size: 35px;
 	color: #383838;
-	padding: 30px 0 40px 0;
+	padding: 40px 0 40px 0;
+	letter-spacing: 1px;
 }
 
 .ac{
@@ -315,6 +319,11 @@ html,body{
 }
 
 .contact input:focus{
+	border: 2px solid limegreen;
+	box-shadow: none;
+}
+
+.contact textarea:focus{
 	border: 2px solid limegreen;
 	box-shadow: none;
 }
