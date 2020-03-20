@@ -152,6 +152,111 @@
 	color: green;
 }
 
+/*.........Life Cover..........*/
+
+.lf{
+	padding: 10px 0 40px 0;
+}
+
+.lf img{
+	margin: 20px 0 30px 0;
+	width: 450px;
+	height: 400px;
+}
+
+.lf h1{
+	padding: 150px 0 0 0;
+	font-size: 28px;
+	font-weight: 700;
+	width: 400px;
+}
+
+.lf p{
+	width: 400px;
+	line-height: 1.7;
+	font-weight: 400;
+	font-size: 17px;
+}
+
+.lf img{
+	width: 450px;
+	height: 400px;
+}
+
+.lf_1 p{
+	padding: 70px 0 70px 0;
+	font-size: 17px;
+}
+
+/*.........Business Cover..........*/
+
+.bn{
+	padding: 30px 0 90px 0;
+}
+
+.bn h1{
+	padding: 200px 0 0 0;
+	font-size: 28px;
+	font-weight: 700;
+	width: 400px;
+}
+
+.bn p{
+	width: 400px;
+	line-height: 1.7;
+	font-weight: 400;
+	font-size: 17px;
+}
+
+.bn img{
+	margin: 90px 0 0 0;
+	width: 500px;
+	height: 450px;
+}
+
+.bn_1 p{
+	padding: 70px 0 70px 0;
+	font-size: 17px;
+	width: 400px;
+}
+
+.bn_p .row{
+	margin: 0;
+}
+
+.bn_hp{
+	background-color: #262626;
+	padding: 40px 20px;
+}
+
+.bn_hp p{
+	line-height: 1.7;
+}
+
+.bn_2{
+	background: url(../img/business1.jpg);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+}
+
+.bn_4{
+	background: url(../img/business2.jpg);
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.bn_3{
+	border: 1px solid #309cea ;
+	padding: 50px 30px;
+}
+
+.s_color{
+	color: white;
+}
 /*.........Car Cover..........*/
 
 .cp h1{
@@ -165,7 +270,7 @@
 	padding: 0 0 40px 0;
 }
 
-/*.cb h1{
+.cb h1{
 	padding: 90px 0 0 0;
 	font-size: 28px;
 	font-weight: 400;
@@ -188,7 +293,7 @@
 .cg img{
 	width: 450px;
 	height: 300px;
-}*/
+}
 
 .cq{
 	padding: 60px 0 10px 0;
@@ -327,3 +432,4 @@ li i{
 }
 
 /*............Page Loader..........*/
+
