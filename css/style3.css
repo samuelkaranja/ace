@@ -7,6 +7,8 @@ html,body{
 	font-family: "Nunito", sans-serif;
 }
 
+/*..........Navbar...........*/
+
 .bg-light{
 	background: white!important;
 	padding-bottom: 15px;
@@ -16,7 +18,7 @@ html,body{
 
 .navbar-brand{
 	padding-top: 15px;
-	padding-left: 80px;
+	padding-left: 60px;
 	padding-right: 10px;
 }
 
@@ -41,7 +43,7 @@ html,body{
 	color: #f89828!important;
 }
 
-/*.dropdown-menu{
+.dropdown-menu{
 	background-color: rgb(30,144,255);
 	border: none;
 }
@@ -54,7 +56,164 @@ html,body{
 
 .dropdown-item:hover{
 	color: #f89828;
-}*/
+}
+
+/*.............Intro............*/
+
+.intro{
+	margin-top: 50px;
+	margin-bottom: 40px;
+	background: url(../img/);
+	background-size: cover;
+}
+
+.intro img{
+	margin-top: 130px;
+	width: 650px;
+	height: 500px;
+}
+
+.intro h2{
+	padding-top: 200px;
+	padding-right: 10px;
+	padding-bottom: 4px;
+	font-size: 60px;
+	font-weight: 900;
+	color: green;
+}
+
+.intro p{
+	font-size: 25px;
+	padding-bottom: 20px;
+	font-weight: 400;
+}
+
+.intro .btn{
+	border-radius: 100px;
+	background-color: green;
+	color: #fff;
+	padding: 8px 30px;
+}
+
+/*..........Covers........*/
+
+.cv{
+	padding: 20px 0 100px 0;
+	background: #f4f4f4;
+}
+
+.cv .row{
+	margin: 0;
+}
+
+.cv h1{
+	color: #383838;
+	font-size: 40px;
+	font-weight: 600;
+	padding: 10px 0 80px 0;
+}
+
+.cv img{
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cv h5{
+	padding: 10px 0 5px 0;
+	color: #006400;
+	font-weight: bold;
+}
+
+.cv p{
+	line-height: 1.7;
+	color: #696969;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.cv a{
+	text-decoration: none;
+}
+
+.cv .btn{
+	margin: auto;
+	display: block;
+	background-color: forestgreen;
+	color: white;
+	border-radius: 100px;
+	padding: 5px 20px;
+}
+
+.cv .bnt:focus{
+	box-shadow: none;
+}
+
+/*...........Why Us..........*/
+
+.abt{
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+
+.abt h2{
+	text-align: center;
+	font-weight: 600;
+	font-size: 35px;
+	color: #383838;
+	padding: 40px 0 40px 0;
+	letter-spacing: 1px;
+}
+
+.ac{
+	padding-top: 10px;
+}
+
+.ac p{
+	text-align: left;
+	line-height: 1.7;
+	padding-right: 10px;
+}
+
+.pg{
+	padding: 5px 40px 0 50px;
+}
+
+.pg p{
+	float: left;
+}
+
+.pg .progress{
+	height: 8px;
+	margin-top: 10px;
+}
+
+/*..........Partners...........*/
+
+.pn{
+	background: #f4f4f4;
+	padding-bottom: 40px;
+	margin-bottom: 1px solid black;
+}
+
+.pn h1{
+	padding: 30px 0 40px 0;
+	color: #383838;
+	font-size: 40px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.pn .box{
+	margin: 15px 35px 0 0;
+}
+
+.pn img{
+	width: 150px;
+	height: 150px;
+}
 
 /*.........Medical Cover..........*/
 
@@ -325,7 +484,6 @@ html,body{
 	width: 400px;
 }
 
-
 /*.........Car Cover..........*/
 
 .cp h1{
@@ -430,6 +588,85 @@ html,body{
 	padding: 130px 10px;
 }
 
+/*.........Comments..........*/
+
+.contact{
+	background: #fff;
+	padding: 30px;
+	border-top: 1px solid lightgrey;
+}
+
+.contact .frm{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.contact h1{
+	color: #383838;
+	font-size: 35px;
+	font-weight: 900;
+	letter-spacing: 2px;
+	padding-bottom: 10px;
+}
+
+.contact h4{
+	font-size: 19px;
+	font-weight: 400;
+	color: #747474;
+	font-family: Georgia, serif;
+	padding-bottom: 40px;
+	font-style: italic;
+}
+
+.contact label{
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.8;
+	color: #696969;
+	padding-left: 10px;
+}
+
+.contact input{
+	border-radius: 20px;
+	border: 2px solid #d8d8d8;
+	box-shadow: none;
+	padding: 20px;
+	width: 100%;
+}
+
+.contact input:focus{
+	border: 2px solid limegreen;
+	box-shadow: none;
+}
+
+.contact textarea:focus{
+	border: 2px solid limegreen;
+	box-shadow: none;
+}
+
+::placeholder{
+	font-size: 1rem;
+}
+
+.contact button{
+	padding: 10px 0;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	border: none;
+	color: white;
+	border-radius: 20px;
+	background-color: limegreen;
+}
+
+.contact button:hover{
+	color: #fff;
+}
+
+.contact a{
+	text-decoration: none;
+}
+
 /*..........Footer...........*/
 
 footer{
@@ -499,6 +736,3 @@ li i{
 	font-weight: 400;
 	font-size: 1em;
 }
-
-/*............Page Loader..........*/
-

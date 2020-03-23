@@ -137,7 +137,7 @@ html,body{
 
 .cv{
 	padding: 20px 0 100px 0;
-	background: #fff;
+	background: #f4f4f4;
 }
 
 .cv .row{
@@ -655,7 +655,7 @@ html,body{
 
 footer{
 	padding: 70px;
-	background-color: green;
+	background-color: #696969;
 	bottom:0;
 	width: 100%;
 	position: relative;
