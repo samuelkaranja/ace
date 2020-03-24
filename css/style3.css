@@ -5,6 +5,7 @@
 
 html,body{
 	font-family: "Nunito", sans-serif;
+	scroll-behavior: smooth;
 }
 
 /*..........Navbar...........*/
@@ -320,6 +321,23 @@ html,body{
 	color: green;
 }
 
+.med_4 img{
+	margin: 80px 0 0 0;
+	width: 500px;
+	height: 500px;
+}
+
+.med_4 h1{
+	padding: 90px 0 10px 0;
+	font-weight: 700;
+	font-size: 33px;
+}
+
+.med_4 i{
+	color: #000;
+	text-align: left;
+}
+
 /*.........Life Cover..........*/
 
 .lf{
@@ -428,6 +446,14 @@ html,body{
 	color: white;
 }
 
+.bn_6 img{
+	display: none;
+}
+
+.bn_8 img{
+	display: none;
+}
+
 /*.........Property Cover.........*/
 
 .pt_0{
@@ -484,6 +510,11 @@ html,body{
 	width: 400px;
 }
 
+.pr_2 img{
+	display: none;
+}
+
+
 /*.........Car Cover..........*/
 
 .cp h1{
@@ -513,8 +544,16 @@ html,body{
 	height: 300px;
 }
 
+.cb_1{
+	display: none;
+}
+
 .cg{
 	padding: 130px 0; 
+}
+
+.cg_1 img{
+	display: none;
 }
 
 .cg img{
@@ -736,3 +775,361 @@ li i{
 	font-weight: 400;
 	font-size: 1em;
 }
+
+/*............Responsivesness............*/
+
+@media only screen and (max-width: 320px){
+/*.......Navbar........*/
+	.navbar-brand{
+		float: left;
+		padding: 10px 0 0 0;
+	}
+
+	.navbar-brand img{
+		width: 150px;
+		height: 50px;
+	}
+
+/*.........Intro.........*/
+
+	.intro h2{
+		padding: 80px 0 0 0;
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.intro p{
+		text-align: center;
+	}
+
+	.intro img{
+		/*float: left;
+		width: 300px;
+		height: 300px;*/
+		display: none;
+	}
+
+	.intro .btn{
+		display: block;
+		margin: 0 auto;
+	}
+
+/*............Cover..........*/
+
+	.cv{
+		padding: 0;
+	}
+
+	.cv h1{
+		padding: 20px 0 ;
+	}
+
+	.cv .col-md-2{
+		margin: 0 0 100px 0; 
+	}
+
+/*...........About...........*/
+	.abt{
+		padding: 0;
+	}
+	
+	.abt h2{
+		padding: 20px 0;
+	}
+
+	.ac p{
+		text-align: center;
+	}
+
+	.pg{
+		padding: 15px;
+	}
+
+/*...........Partners...........*/
+
+	.pn h1{
+		padding: 30px 0 10px 0;
+	}
+
+	.pn .box{
+		margin: 10px 0;
+	}
+
+	.pn .box img{
+		width: 200px;
+		height: 200px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto; 
+	}
+
+/*............Contact............*/
+	
+	.contact{
+		padding: 10px;
+	}
+
+	.contact h1{
+		padding: 5px 0;
+	}
+
+/*............Medical Cover...........*/
+
+	.med{
+		margin-bottom: 10px;
+	}
+
+	.med img{
+		width: 300px;
+		height: 250px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.md h2{
+		font-size: 40px;
+		text-align: center;
+		padding: 20px 0 5px 0;
+	}
+
+	.md p{
+		text-align: center;
+		font-size: 18px;
+	}
+
+	.med_1 h3{
+		padding: 10px 0;
+		width: 300px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.med_1 p{
+		width: 300px;
+		padding: 5px 0;
+	}
+
+	.med_2 img{
+		width: 200px;
+		height: 200px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	} 
+
+	.med_2 h1{
+		text-align: center;
+		padding: 60px 0 10px 0;
+	}
+
+	.med_2 h2{
+		text-align: center;
+	}
+
+	.med_2 p{
+		text-align: center;
+	}
+
+	.med_3 img{
+		width: 200px;
+		height: 200px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.med_3 h1{
+		padding: 50px 0 0 0;
+	}
+
+	.med_4 img{
+		width: 200px;
+		height: 200px;
+	}
+
+/*.............Life Cover.............*/
+
+	.lf_1 p{
+		text-align: center;
+		width: 300px;
+		padding: 30px 0;
+	}
+
+	.lf img{
+		width: 280px;
+		height: 280px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.lf h1{
+		padding: 50px 0 0 0;
+		text-align: center;
+		width: 300px;
+	}
+
+	.lf p{
+		width: 300px;
+		text-align: center;
+	}
+
+/*............Business Cover...........*/
+
+	.bn{
+		padding: 5px 0;
+	}
+
+	.bn h1{
+		padding: 30px 0 10px 0;
+		text-align: center;
+		width: 300px;
+	}
+
+	.bn p{
+		width: 300px;
+		text-align: center;
+	}
+
+	.bn img{
+		width: 250px;
+		height: 200px;
+		margin: 10px 0;
+	}
+
+	.bn_5 img{
+		display: none;
+	}
+
+	.bn_6 img{
+		width: 250px;
+		height: 200px;
+		margin: 10px 0;
+		display: block;
+	}
+
+	.bn_7 img{
+		display:none; 
+	}
+
+	.bn_8 img{
+		width: 250px;
+		height: 200px;
+		margin: 10px 0;
+		display: block; 
+	}
+
+	.bn_1 p{
+		padding: 20px 0;
+		width: 300px;
+	}
+
+/*..........Property Cover.........*/
+
+	.pt{
+		padding: 100px 0 0 0;
+	}
+
+	.pt img{
+		width: 300px;
+		height: 250px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.pt_1 p{
+		width: 300px;
+		padding: 20px 0;
+	}
+
+	.pr img{
+		width: 250px;
+		height: 200px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.pr h1{
+		padding: 30px 0 10px 0;
+		text-align: center;
+	}
+
+	.pr p{
+		width: 300px;
+		text-align: center;
+	}
+
+	.pr_1 img{
+		display: none;
+	}
+
+	.pr_2 img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 250px;
+		height: 200px;
+	}
+
+/*.............Car Cover...........*/
+
+	.cp h1{
+		padding: 10px 0 0 0;
+	}
+
+	.cp p{
+		width: 300px;
+	}
+
+	.cb h1{
+		text-align: center;
+		padding: 20px 0 0 0;
+	}
+
+	.cb p{
+		width: 300px;
+		text-align: center;
+	}
+
+	.cb img{
+		width: 250px;
+		height: 200px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.cg_0 img{
+		display: none;
+	}
+
+	.cg_1 img{
+		width: 250px;
+		height: 200px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.cb_2 img{
+		display: none;
+	}
+
+	.cb_1 img{
+		display: block;
+		width: 250px;
+		height: 200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+
+
+
+
+
