@@ -928,7 +928,7 @@ li i{
 
 /*............Responsivesness Phone............*/
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 320px), only screen and (max-width: 375px){
 	
 	.navbar-brand{
 		padding: 10px 0 0 0;
@@ -1140,6 +1140,8 @@ li i{
 	}
 }
 
+/*.............Tablet Reponsiveness............*/
+
 @media only screen and (max-width: 768px){
 	.navbar-collapse{
 		text-align: center;
@@ -1154,6 +1156,15 @@ li i{
 		width: 100%;
 		height: auto;
 		margin-top: 150px;
+	}
+
+	.cv img{
+		width: 100%;
+		height: auto;
+	}
+
+	.cv .btn{
+
 	}
 
 	.ac p{
