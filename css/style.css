@@ -1231,6 +1231,90 @@ li i{
 	.lf p{
 		width: 100%;
 	}
+
+	/*...........Business Cover.........*/
+	.bn img{
+		width: 100%;
+		height: auto;
+		margin: 30px 0 0 0;
+	}
+
+	.bn h1{
+		padding: 40px 0 0 0;
+		width: 100%;
+	}
+
+	.bn p{
+		width: 100%;
+	}
+
+	.bn_5 img{
+		margin: 120px 0 0 0;
+	}
+
+	.bn_5 h1{
+		padding-top: 180px;
+	}
+
+	.bn_7 h1{
+		padding: 100px 0 0 0;
+	}
+
+	.bn_7 img{
+		margin: 100px 0 0 0;
+	}
+
+	/*..........Property Cover.........*/
+	.pt{
+		text-align: center;
+		padding: 120px 0 30px 0;
+	}
+
+	.pt h2{
+		padding: 30px 0 0 0;
+	}
+
+	.pt img{
+		width: 100%;
+		height: auto;
+	}
+
+	.pr img{
+		width: 100%;
+		height: auto;
+		margin: 150px 0 0 0;
+	}
+
+	.pr h1{
+		padding: 200px 0 0 0;
+	}
+
+	.pr p{
+		width: 100%;
+	}
+
+	/*.........Car Cover........*/
+	.cp h3{
+		padding: 50px 0 0 0;
+	}
+
+	.cp p{
+		padding-bottom: 20px; 
+	}
+
+	.cb h1{
+		padding: 100px 0 0 0;
+	}
+
+	.cb img, .cg img{
+		width: 100%;
+		height: auto;
+		margin: 50px 0 0 0;
+	}
+
+	.cb p{
+		width: 100%;
+	}
 }
 
 
