@@ -382,6 +382,29 @@ html,body{
 
 /*.........Life Cover..........*/
 
+.lf_f{
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+
+.lf_f h2{
+	padding: 100px 0 10px 0;
+	font-size: 45px;
+	color: green;
+}
+
+.lf_f p{
+	font-size: 20px;
+	font-weight: 300;
+	padding-bottom: 10px;
+	line-height: 1.7;
+}
+
+.lf_f img{
+	width: 500px;
+	height: 385px;
+}
+
 .lf{
 	padding: 10px 0 40px 0;
 }
@@ -930,7 +953,7 @@ li i{
 
 /*............Responsivesness Phone............*/
 
-@media only screen and (max-width: 320px), only screen and (max-width: 375px){
+@media only screen and (max-width: 320px) and (max-width: 375px){
 	
 	.navbar-brand{
 		padding: 10px 0 0 0;
@@ -961,8 +984,8 @@ li i{
 		position: absolute;
 		top: 0;
 		left: 0;
-		margin-top: -250px;
 		opacity: 0.1;
+		margin-top: -270px; 
 	}
 
 	.cv h1{
@@ -1026,19 +1049,28 @@ li i{
 		z-index: 10;
 	}
 
+	.med_1 h3{
+		width: auto;
+	}
+
 	.med_1 p{
 		width: 100%;
+		padding: 0 0 10px 0; 
 	}
 
 	.med_2 h1{
-		text-align: center;
+		text-align: left;
 		padding: 10px 0;
 	}
 
 	.med_2 img, .med_3 img{
 		width: 100%;
 		height: auto;
-		margin: 0;
+		margin: 40px 0 0 0;
+	}
+
+	.med_3 h1{
+		padding: 50px 0 0 0;
 	}
 
 	.med_4 h1{
@@ -1046,17 +1078,53 @@ li i{
 	}
 
 	/*...........Life Cover..........*/
+	.lf_f{
+		text-align: center;
+		position: relative;	
+	}
+
+	.row-reverse{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+	}
+
+	.lf_f img{
+		width: 100%;
+		height: auto;
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0.1;
+		margin-top: -220px;
+	}
+
+	.lf_f h2{
+		padding: 10px 0 0 0;
+		font-size: 45px;
+		color: green;
+	}
+
+	.lf_f p{
+		font-size: 20px;
+		font-weight: 300;
+	}
+
+
 	.lf img{
 		width: 100%;
 		height: auto;
-		margin: 0;
+		margin: 50px 0 0 0;
 	}
 
 	.lf h1, .lf p, .lf_1 p{
 		width: 100%;
 		text-align: center;
+		padding: 15px 0;
+	}
 
-		padding: 20px 0;
+	.lf_1 h3{
+		padding: 50px 0 0 0;
 	}
 
 	/*.........Business Cover.........*/
@@ -1115,6 +1183,7 @@ li i{
 
 	.pr p{
 		width: 100%;
+		text-align: center;
 	}
 
 	/*.........Car Cover.........*/
@@ -1144,7 +1213,7 @@ li i{
 
 /*.............Tablet Reponsiveness............*/
 
-@media only screen and (max-width: 768px){
+/*@media only screen and (max-width: 768px){
 	.navbar-collapse{
 		text-align: center;
 	}
@@ -1181,15 +1250,15 @@ li i{
 		width: auto;
 		padding: 0;
 		padding-bottom: 20px;
-	}
+	}*/
 
 	/*........Footer........*/
-	.footer-1, .footer-2, .footer-3{
+	/*.footer-1, .footer-2, .footer-3{
 		margin: 0 auto;
-	}
+	}*/
 
 	/*............Medical Cover........*/
-	.med{
+	/*.med{
 		margin-bottom: 20px;
 	}
 
@@ -1219,9 +1288,9 @@ li i{
 		height: auto;
 		margin: 200px 0 0 0;
 	}
-
+*/
 	/*..........Life Cover.........*/
-	.lf img{
+	/*.lf img{
 		width: 100%;
 		height: auto;
 		margin-top: 60px;
@@ -1234,10 +1303,10 @@ li i{
 
 	.lf p{
 		width: 100%;
-	}
+	}*/
 
 	/*...........Business Cover.........*/
-	.bn img{
+	/*.bn img{
 		width: 100%;
 		height: auto;
 		margin: 30px 0 0 0;
@@ -1266,10 +1335,10 @@ li i{
 
 	.bn_7 img{
 		margin: 100px 0 0 0;
-	}
+	}*/
 
 	/*..........Property Cover.........*/
-	.pt{
+	/*.pt{
 		text-align: center;
 		padding: 120px 0 30px 0;
 	}
@@ -1295,10 +1364,10 @@ li i{
 
 	.pr p{
 		width: 100%;
-	}
+	}*/
 
 	/*.........Car Cover........*/
-	.cp h3{
+	/*.cp h3{
 		padding: 50px 0 0 0;
 	}
 
@@ -1319,7 +1388,7 @@ li i{
 	.cb p{
 		width: 100%;
 	}
-}
+}*/
 
 
 
