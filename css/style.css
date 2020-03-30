@@ -246,7 +246,6 @@ html,body{
 
 .md_wrap{
 	padding-bottom: 80px;
-	background-color: #f4f4f4;
 }
 
 .med{
@@ -283,12 +282,12 @@ html,body{
 	padding: 40px 0 0 0;
 	color: green;
 	font-weight: 700;
-	font-size: 24px;
+	font-size: 35px;
 }
 
 .med_1 p{
-	width: 500px;
-	padding: 5px 0 30px 0;
+	width: 100%;
+	padding: 5px 250px 30px 250px;
 	font-size: 17px;
 }
 
@@ -300,7 +299,7 @@ html,body{
 
 .med_2 h1{
 	font-weight: 700;
-	font-size: 28px;
+	font-size: 35px;
 	padding: 85px 0 5px 0;
 }
 
@@ -395,9 +394,9 @@ html,body{
 
 .lf h1{
 	padding: 180px 0 0 0;
-	font-size: 28px;
+	font-size: 35px;
 	font-weight: 700;
-	width: 400px;
+	width: 100%;
 }
 
 .lf p{
@@ -434,9 +433,9 @@ html,body{
 
 .bn h1{
 	padding: 200px 0 0 0;
-	font-size: 28px;
+	font-size: 35px;
 	font-weight: 700;
-	width: 400px;
+	width: 100%;
 }
 
 .bn p{
@@ -448,12 +447,12 @@ html,body{
 
 .bn img{
 	margin: 90px 0 0 0;
-	width: 500px;
-	height: 450px;
+	width: 450px;
+	height: 400px;
 }
 
 .bn_1 p{
-	padding: 70px 0 70px 0;
+	padding: 10px 0 70px 0;
 	font-size: 17px;
 	width: 500px;
 }
@@ -512,7 +511,7 @@ html,body{
 
 .pt{
 	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-bottom: 100px;
 }
 
 .pt h2{
@@ -530,13 +529,16 @@ html,body{
 }
 
 .pt img{
-	width: 700px;
-	height: 500px;
+	width: 500px;
+	height: 400px;
 }
 
-/*.pt_1 h1{
-	width: 500px;
-}*/
+.pt_1 h3{
+	font-size: 35px;
+	color: green;
+	font-weight: 700;
+	padding: 10px 0 5px 0;
+}
 
 .pt_1 p{
 	width: 500px;
@@ -546,15 +548,15 @@ html,body{
 
 .pr img{
 	margin: 80px 0 0 0;
-	width: 520px;
-	height: 450px;
+	width: 450px;
+	height: 400px;
 }
 
 .pr h1{
 	padding: 200px 0 5px 0;
-	font-size: 28px;
+	font-size: 35px;
 	font-weight: 700px;
-	width: 300px;
+	width: 100%;
 }
 
 .pr p{
@@ -570,7 +572,7 @@ html,body{
 
 .cp h3{
 	padding: 80px 0 5px 0;
-	font-size: 24px;
+	font-size: 35px;
 	color: green;
 	font-weight: 700;
 }
@@ -587,9 +589,9 @@ html,body{
 
 .cb h1{
 	padding: 180px 0 0 0;
-	font-size: 28px;
+	font-size: 35px;
 	font-weight: 700;
-	width: 300px;
+	width: 100%;
 	line-height: 1.5;
 }
 
@@ -961,6 +963,10 @@ li i{
 		left: 0;
 		margin-top: -250px;
 		opacity: 0.1;
+	}
+
+	.intro .btn{
+		padding: 15px 80px;
 	}
 
 	.cv h1{
