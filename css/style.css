@@ -4,7 +4,7 @@
 }
 
 html,body{
-	font-family: Roboto,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+	font-family: 'Poppins', sans-serif;
 	scroll-behavior: smooth;
 }
 
@@ -12,70 +12,117 @@ html,body{
 
 .bg-light{
 	background: white!important;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 	width: 100%;
 	border-bottom: 2px solid #f4f4f4;
 }
 
 .navbar-brand{
-	padding-top: 15px;
-	padding-left: 60px;
+	padding-top: 10px;
+	padding-left: 200px;
 	padding-right: 10px;
 }
 
 .navbar-brand img{
-	width: 180px;
-	height: 65px;
+	width: 150px;
+	height: 50px;
+}
+
+.navbar-nav{
+	padding-left: 250px;
 }
 
 .nav-item{
-	padding-left: 50px;
-	font-size: 18px;
+	padding-left: 25px;
+	font-size: 17px;
 }
 
 .navbar-light .navbar-nav .nav-link{
-	color: #000000;
-	font-weight: 480;
+	color: green;
+	font-weight: 700;
 	font-family: sans-serif;
-	padding-top: 20px;
+	padding-top: 18px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
 	color: #f89828!important;
 }
 
-.dropdown-menu{
-	background-color: rgb(30,144,255);
+.navbar-nav .dropdown-menu{
 	border: none;
+	background-color: lightseagreen;
 }
 
 .dropdown-item{
-	padding: 5px 6px;
+	padding: 10px 20px;
 	color: #fff;
-	font-size: 14px;
+	text-align: center;
+	font-size: 16px;
 }
 
 .dropdown-item:hover{
-	color: #f89828;
+	color: coral;
+}
+
+.intro{
+	width: 100%;
+	height: 80vh;
+	background: linear-gradient(
+      rgba(0,0,0,0.4), 
+      rgba(0,0,0,0.4)),
+	url("../img/insurance.jpg");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+
+.txt_abt{
+	position: absolute;
+	margin-top: 17%; 
+	z-index: 1000;
+}
+
+.txt_abt h1{
+	font-weight: 600;
+	padding-bottom: 10px;
+	color: #fff;
+	margin: 0;
+	font-size: 3.4em;
+}
+
+.txt_abt h2{
+	font-weight: 300;
+	padding-top: 5px;
+	color: #fff;
+	font-size: 1.8em;
+}
+
+.txt_abt .btn{
+	margin-top: 80px;
+	background-color: green;
+	color: white;
+	padding: 15px 55px;
+	border-radius: 50px;
 }
 
 /*.............Intro............*/
 
-.intro{
-	margin-top: 50px;
+/*.intro{
+	margin-top: 40px;
 	margin-bottom: 40px;
 	background: url(../img/);
 	background-size: cover;
 }
 
 .intro img{
-	margin-top: 80px;
-	width: 650px;
-	height: 500px;
+	margin-top: 100px;
+	width: 600px;
+	height: 450px;
 }
 
 .intro h2{
-	padding-top: 150px;
+	padding-top: 140px;
 	padding-right: 10px;
 	padding-bottom: 4px;
 	font-size: 60px;
@@ -90,16 +137,17 @@ html,body{
 }
 
 .intro .btn{
-	border-radius: 100px;
-	background-color: green;
+	border-radius: 50px !important;
+	background-color: #f67922;
 	color: #fff;
-	padding: 10px 50px;
-}
+	padding: 10px 60px;
+	font-size: 25px !important;
+}*/
 
 /*..........Covers........*/
 
 .cv{
-	padding: 20px 0 100px 0;
+	padding: 20px 0 150px 0;
 	background: #f4f4f4;
 }
 
@@ -111,7 +159,7 @@ html,body{
 	color: #383838;
 	font-size: 40px;
 	font-weight: 600;
-	padding: 10px 0 80px 0;
+	padding: 10px 0 70px 0;
 }
 
 .cv img{
@@ -142,19 +190,28 @@ html,body{
 .cv .btn{
 	margin: auto;
 	display: block;
-	background-color: forestgreen;
-	color: white;
+	background-color: transparent;
+	border-color: green;
+	color: green;
 	border-radius: 100px;
-	padding: 5px 20px;
+	padding: 5px 25px;
 }
 
-.cv .bnt:focus{
-	box-shadow: none;
+.cv .btn:hover{
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+}
+
+.btn_a{
+	position: absolute;
+	left: 60px;
+	bottom: -40px;
 }
 
 /*...........Why Us..........*/
 
-.abt{
+/*.abt{
 	padding-top: 20px;
 	padding-bottom: 80px;
 }
@@ -170,6 +227,9 @@ html,body{
 
 .ac{
 	padding-top: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .ac p{
@@ -189,7 +249,7 @@ html,body{
 .pg .progress{
 	height: 8px;
 	margin-top: 10px;
-}
+}*/
 
 /*..........Testimonials.........*/
 
@@ -217,11 +277,31 @@ html,body{
 	text-align: center;
 }*/
 
+.ab{
+	padding-bottom: 50px;
+}
+
+.ab h2{
+	font-weight: 600;
+	font-size: 40px;
+	color: #383838;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	letter-spacing: 2px;
+}
+
+.ab p{
+	text-align: center;
+	font-size: 17px;
+	line-height: 1.7;
+}
+
 /*..........Partners...........*/
 
 .pn{
 	background: #f4f4f4;
 	padding-bottom: 40px;
+	border-top: 1px solid lightgrey;
 	margin-bottom: 1px solid black;
 }
 
@@ -473,6 +553,13 @@ html,body{
 	height: 400px;
 }
 
+.bn_1 h3{
+	padding: 40px 0 0 0;
+	color: green;
+	font-weight: 700;
+	font-size: 35px;
+}
+
 .bn_1 p{
 	padding: 10px 0 70px 0;
 	font-size: 17px;
@@ -523,6 +610,17 @@ html,body{
 
 .bn_8 img{
 	display: none;
+}
+
+.bn_9 h1, .bn_10 h1{
+	padding: 150px 0 0 0;
+	font-size: 35px;
+	font-weight: 700;
+	width: 100%;
+}
+
+.bn_9 img, .bn_10 img{
+	margin-top: 100px;
 }
 
 /*.........Property Cover.........*/
@@ -789,72 +887,6 @@ html,body{
 }
 
 /*..........Footer...........*/
-
-/*footer{
-	padding: 70px;
-	background-color: green;
-	bottom:0;
-	width: 100%;
-	position: relative;
-}*/
-
-/*.icon h2{
-	padding: 0 0 20px 0;
-	color: #fff;
-	font-weight: 500;
-}
-
-.icon ul{
-	list-style-type: none;
-}
-
-.icon ul li{
-	display: inline-flex;
-	border: 2px solid white;
-	margin-right: 8px;
-	border-radius: 50%;
-	width: 40px;
-	height: 40px;
-}
-
-li i{
-	color: black;
-	padding: 10px;
-}
-
-.fa{
-	font-size: 18px;
-	color: #fff;
-}
-
-.fa-facebook{
-	color: blue;
-}
-
-.fa-youtube-play{
-	color: rgb(220,20,60);
-}
-
-.fa-instagram{
-	background-color: ; 
-}
-
-.fa-twitter{
-	color: rgba(29,161,242,1.00);
-}
-
-.textwidget p{
-	color: #fff;
-	font-size: 18px;
-}
-
-.policy p{
-	color: #fff;
-	font-weight: 400;
-	font-size: 1em;
-}
-*/
-/*..........Footer2.........*/
 
 .ftt{
 	background-color: #696969;
