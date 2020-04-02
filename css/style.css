@@ -1048,6 +1048,10 @@ html,body{
 		bottom: unset;
 	}
 
+	.ab p{
+		text-align: left;
+	}
+
 	.abt{
 		padding: 0;
 	}
