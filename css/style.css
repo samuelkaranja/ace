@@ -74,7 +74,6 @@ html,body{
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	/*background-attachment: fixed;*/
 }
 
 .txt_abt{
@@ -995,29 +994,44 @@ html,body{
 		height: 50px;
 	}
 
+	.navbar-nav{
+		padding: 0;
+	}
+
 	.nav-item{
 		text-align: center;
 		padding: 0;
 	}
 
 	.intro{
-		text-align: center;
-		position: relative;
-	}
-
-	.intro h2{
-		padding: 80px 0 0 0;
-		font-size: 40px;
-	}
-
-	.intro img{
 		width: 100%;
-		height: auto;
-		position: absolute;
-		top: 0;
-		left: 0;
-		opacity: 0.1;
-		margin-top: -270px; 
+		height: 60vh;
+		background: linear-gradient(
+	      rgba(0,0,0,0.4), 
+	      rgba(0,0,0,0.4)),
+		url("../img/insurance.jpg");
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.txt_abt h1{
+		padding-top: 70px;
+		font-size: 30px;
+	}
+
+	.txt_abt h2{
+		padding: 10px 0 0 0;
+		font-size: 23px;
+	}
+
+	.txt_abt .btn{
+		margin-top: 25px;
+		padding: 10px 40px;
+	}
+
+	.cv{
+		padding-bottom: 40px;
 	}
 
 	.cv h1{
@@ -1026,6 +1040,12 @@ html,body{
 
 	.cv .col-md-2{
 		padding-bottom: 80px;
+	}
+
+	.btn_a{
+		position: unset;
+		left: unset;
+		bottom: unset;
 	}
 
 	.abt{
