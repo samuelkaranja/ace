@@ -14,7 +14,6 @@ html,body{
 	background: white!important;
 	padding-bottom: 10px;
 	width: 100%;
-	z-index: 1;
 	border-bottom: 2px solid #f4f4f4;
 }
 
@@ -52,6 +51,7 @@ html,body{
 .navbar-nav .dropdown-menu{
 	border: none;
 	background-color: #fff;
+	margin-left: 55px;
 }
 
 .dropdown-item{
@@ -72,8 +72,8 @@ html,body{
 	width: 100%;
 	height: 80vh;
 	background: linear-gradient(
-      rgba(0,0,0,0.4), 
-      rgba(0,0,0,0.4)),
+      rgba(0,0,0,0.6), 
+      rgba(0,0,0,0.6)),
 	url("../img/insurance.jpg");
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -82,7 +82,7 @@ html,body{
 
 .txt_abt{
 	position: absolute;
-	margin-top: 17%; 
+	margin-top: 16%; 
 	z-index: 2;
 }
 
@@ -105,14 +105,16 @@ html,body{
 	margin-top: 80px;
 	background-color: green;
 	color: white;
-	padding: 15px 55px;
+	padding: 15px 80px;
 	border-radius: 50px;
+	font-weight: 700;
+	font-size: 25px;
 }
 
 /*..........Covers........*/
 
 .cv{
-	padding: 20px 0 150px 0;
+	padding: 10px 0 150px 0;
 	background: #f4f4f4;
 }
 
@@ -121,10 +123,10 @@ html,body{
 }
 
 .cv h1{
-	color: #383838;
+	color: green;
 	font-size: 40px;
 	font-weight: 600;
-	padding: 10px 0 70px 0;
+	padding: 10px 0 60px 0;
 }
 
 .cv img{
@@ -153,13 +155,12 @@ html,body{
 }
 
 .cv .btn{
-	margin: auto;
-	display: block;
 	background-color: transparent;
 	border-color: green;
 	color: green;
 	border-radius: 100px;
-	padding: 5px 25px;
+	padding: 8px 35px;
+	font-size: 20px;
 }
 
 .cv .btn:hover{
@@ -170,8 +171,8 @@ html,body{
 
 .btn_a{
 	position: absolute;
-	left: 60px;
-	bottom: -40px;
+	left: 45px;
+	bottom: -60px;
 }
 
 /*...........Why Us..........*/
@@ -183,7 +184,7 @@ html,body{
 .ab h2{
 	font-weight: 600;
 	font-size: 40px;
-	color: #383838;
+	color: green;
 	padding-top: 40px;
 	padding-bottom: 30px;
 	letter-spacing: 2px;
@@ -232,7 +233,7 @@ html,body{
 
 .pn h1{
 	padding: 30px 0 40px 0;
-	color: #383838;
+	color: green;
 	font-size: 40px;
 	font-weight: 600;
 	letter-spacing: 2px;
@@ -746,7 +747,7 @@ html,body{
 }
 
 .contact h1{
-	color: #383838;
+	color: green;
 	font-size: 35px;
 	font-weight: 900;
 	letter-spacing: 2px;
@@ -1012,6 +1013,10 @@ html,body{
 
 @media only screen and (max-width: 375px){
 	
+	.bg-light{
+		z-index: 10;
+	}
+
 	.navbar-brand{
 		padding: 10px 0 0 0;
 	}
@@ -1035,6 +1040,7 @@ html,body{
 		border-top: 2px dotted lightgrey;
 		border-bottom: 2px dotted lightgrey;
 		background-color: #fff;
+		margin-left: 0;
 	}	
 
 	.dropdown-item{
