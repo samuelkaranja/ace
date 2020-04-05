@@ -155,11 +155,13 @@ html,body{
 }
 
 .cv .btn{
+	display: block;
+	margin: auto;
 	background-color: transparent;
 	border-color: green;
 	color: green;
 	border-radius: 100px;
-	padding: 8px 35px;
+	padding: 8px 30px;
 	font-size: 20px;
 }
 
@@ -171,7 +173,7 @@ html,body{
 
 .btn_a{
 	position: absolute;
-	left: 45px;
+	left: 50px;
 	bottom: -60px;
 }
 
@@ -1091,7 +1093,8 @@ html,body{
 	}
 
 	.btn_a{
-		left: 90px;
+		position: unset;
+		left: unset;
 		bottom: unset;
 	}
 
