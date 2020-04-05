@@ -39,8 +39,8 @@ html,body{
 
 .navbar-light .navbar-nav .nav-link{
 	color: green;
-	font-weight: 600;
-	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 17px;
 	padding-top: 18px;
 }
 
