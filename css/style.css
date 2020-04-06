@@ -421,6 +421,15 @@ html,body{
 	font-size: 20px;
 }
 
+.insure a{
+	text-decoration: none;
+}
+
+.insure button:hover{
+	background-color: darkorange;
+	color: #fff;
+}
+
 /*.........Life Cover..........*/
 
 .lf_f{
@@ -517,8 +526,8 @@ html,body{
 
 .bn img{
 	margin: 90px 0 0 0;
-	width: 450px;
-	height: 400px;
+	width: 100%;
+	height: auto;
 }
 
 .bn_1 h3{
@@ -689,8 +698,9 @@ html,body{
 }
 
 .cb img{
-	width: 400px;
-	height: 350px;
+	margin-top: 60px;
+	width: 100%;
+	height: auto;
 }
 
 .cb_1{
@@ -1215,6 +1225,13 @@ html,body{
 		margin-bottom: 10px;
 	}
 
+	.insure button{
+		padding: 10px 50px;
+		font-size: 17px;
+		margin: 0 auto;
+		display: block;
+	}
+
 	/*...........Life Cover..........*/
 	.lf_f{
 		text-align: center;
@@ -1234,7 +1251,7 @@ html,body{
 		top: 0;
 		left: 0;
 		opacity: 0.1;
-		margin-top: -220px;
+		margin-top: -300px;
 	}
 
 	.lf_f h2{
