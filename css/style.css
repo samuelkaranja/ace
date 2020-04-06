@@ -843,7 +843,17 @@ html,body{
 	box-shadow: none;
 }
 
+.contact input:active{
+	border: 2px solid limegreen;
+	box-shadow: none;
+}
+
 .contact textarea:focus{
+	border: 2px solid limegreen;
+	box-shadow: none;
+}
+
+.contact textarea:active{
 	border: 2px solid limegreen;
 	box-shadow: none;
 }
