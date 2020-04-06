@@ -1056,7 +1056,7 @@ html,body{
 
 /*............Responsivesness Phone............*/
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 425px){
 	
 	.bg-light{
 		z-index: 10;
