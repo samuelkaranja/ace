@@ -387,12 +387,12 @@ html,body{
 .inline_btn{
 	margin-right: 13px;
 	padding: 10px 25px;
-	background-color: transparent;
-	color: green;
-	border: 3px solid darkorange;
+	background-color: darkorange;
+	color: #fff;
 }
 
 .inline_btn:hover{
+	color: #fff;
 	transform: translate(0px, -3px) scale(1.1);
 }
 
