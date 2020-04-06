@@ -402,7 +402,7 @@ html,body{
 
 .insure{
 	padding: 15px 0;
-	background-color: darkgreen;
+	background-color: seagreen;
 }
 
 .insure p{
@@ -1209,6 +1209,10 @@ html,body{
 
 	.med_4 h1{
 		padding-top: 10px;
+	}
+
+	.inline_btn{
+		margin-bottom: 10px;
 	}
 
 	/*...........Life Cover..........*/
