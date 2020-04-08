@@ -15,6 +15,7 @@ html,body{
 	padding-bottom: 10px;
 	width: 100%;
 	border-bottom: 2px solid #f4f4f4;
+	z-index: 1;
 }
 
 .navbar-brand{
@@ -83,7 +84,7 @@ html,body{
 .txt_abt{
 	position: absolute;
 	margin-top: 16%; 
-	z-index: 2;
+	z-index: 0;
 }
 
 .txt_abt h1{
