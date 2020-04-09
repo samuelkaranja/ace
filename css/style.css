@@ -734,8 +734,8 @@ html,body{
 }
 
 .cg img{
-	width: 400px;
-	height: 350px;
+	width: 100%;
+	height: auto;
 }
 
 .cq{
