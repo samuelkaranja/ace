@@ -489,8 +489,8 @@ html,body{
 }
 
 .lf img{
-	width: 450px;
-	height: 400px;
+	width: 100%;
+	height: auto;
 	margin-top: 70px;
 }
 
@@ -1499,8 +1499,61 @@ html,body{
 		margin-top: 250px; 
 	}
 
-	.med_4 h1{
+	/*.........Life Cover........*/
+	.lf_f h2{
+		padding-top: 60px;
+	}
 
+	.lf_f p{
+		padding: 0;
+	}
+
+	.lf_f img{
+		margin-left: 30px;
+	}
+
+	.lf h1{
+		padding-top: 130px; 
+	}
+
+	.lf p{
+		width: 100%;
+	}
+
+	/*........Business Cover.......*/
+	.bs_img{
+		margin-top: 60px;
+	}
+
+	.bn h1{
+		padding-top: 120px;
+	}
+
+	.bn p{
+		width: 100%;
+	}
+
+	/*.........Property Cover.......*/
+	.pt{
+		padding-top: 100px;
+	}
+
+	.pt img{
+		height: auto;
+		margin-top: 70px;
+		margin-left: 30px;
+	}
+
+	.pt h2{
+		padding-top: 10px;
+	}
+
+	.pr h1{
+		padding-top: 90px;
+	}
+
+	.pr p{
+		width: 100%;
 	}
 }
 
