@@ -349,8 +349,8 @@ html,body{
 
 .med_3 img{
 	margin: 150px 100px 0 0;
-	width: 500px;
-	height: 500px;
+	width: 100%;
+	height: auto;
 }
 
 .p_color{
@@ -1398,6 +1398,109 @@ html,body{
 	.cb img, .cg img{
 		width: 100%;
 		height: auto;
+	}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px){
+	.navbar-brand{
+		padding-left: 70px;
+	}
+
+	.navbar-light .navbar-toggler{
+		margin-right: 70px;
+	}
+
+	.navbar-nav{
+		padding-left: 0;
+	}
+
+	.nav-item{
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.navbar-nav .dropdown-menu{
+		margin: 0;
+		border-top: 2px dotted lightgrey;
+		border-bottom: 2px dotted lightgrey;
+	}
+
+	.txt_abt{
+		margin-top: 20%;
+	}
+
+	.txt_abt h1{
+		padding-top: 20px;
+		font-size: 3em;
+	}
+
+	.txt_abt .btn{
+		margin-top: 50px;
+	}
+
+	.cv img{
+		width: 60px;
+		height: 60px;
+	}
+
+	.cv p{
+		line-height: 1.5;
+	}
+
+	.cv .btn{
+		padding: 5px 8px;
+		font-size: 18px;
+	}
+
+	.btn_a{
+		left: unset;
+		bottom: -40px;
+	}
+
+	.pn img{
+		width: 130px;
+		height: 130px;
+	}
+
+	.pn .box{
+		margin-right: 20px;
+	}
+
+	.ft-li li{
+		width: 38px;
+	}
+
+	/*........Medical Cover......*/
+	.med h2{
+		font-size: 40px;
+		padding-top: 50px;
+	}
+
+	.med p{
+		padding-bottom: 0;
+	}
+
+	.inline_btn{
+		padding: 10px;
+		margin-bottom: 5px;
+	}
+
+	.med_1 p{
+		padding: 5px 100px 30px 100px;
+	}
+
+	.med_2 img{
+		margin-left: 30px;
+		margin-top: 300px;
+	}
+
+	.med_3 img{
+		margin-top: 250px; 
+	}
+
+	.med_4 h1{
+
 	}
 }
 
