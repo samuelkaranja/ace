@@ -1549,11 +1549,38 @@ html,body{
 	}
 
 	.pr h1{
-		padding-top: 90px;
+		padding-top: 100px;
 	}
 
 	.pr p{
 		width: 100%;
+		padding-bottom: 80px;
+	}
+
+	.pr img{
+		margin-top: 80px;
+	}
+
+	/*............Car Cover...........*/
+	.cb img{
+		margin-top: 100px;
+	}
+
+	.cb h1{
+		padding-top: 100px;
+	}
+
+	.cb p{
+		width: 100%;
+	}
+
+	.cg img{
+		padding-top: 60px;
+	}
+
+	.insure button{
+		padding: 10px 20px;
+		margin-top: 25px;
 	}
 }
 
