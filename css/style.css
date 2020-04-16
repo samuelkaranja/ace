@@ -486,6 +486,7 @@ html,body{
 	width: 100%;
 	height: auto;
 	margin-top: 50px;
+	margin-bottom: 40px;
 }
 
 .h_1{
@@ -526,7 +527,7 @@ html,body{
 }
 
 .bn img{
-	margin: 90px 0 0 0;
+	margin: 90px 0 40px 0;
 	width: 100%;
 	height: auto;
 }
@@ -601,7 +602,7 @@ html,body{
 }
 
 .bn_9 img{
-	margin-top: 100px;
+	margin: 100px 0;
 }
 
 .bn_10 img{
@@ -653,7 +654,7 @@ html,body{
 }
 
 .pr img{
-	margin: 50px 0 0 0;
+	margin: 50px 0 40px 0;
 	width: 100%;
 	height: auto;
 }
