@@ -601,13 +601,13 @@ html,body{
 	width: 100%;
 }
 
-.bn_9 img{
+/*.bn_9 img{
 	margin: 160px 0 60px 0;
-}
+}*/
 
-.bn_10 img{
+/*.bn_10 img{
 	margin-top: 150px;
-}
+}*/
 
 /*.........Property Cover.........*/
 
@@ -1322,8 +1322,6 @@ html,body{
 	}
 
 	.bn img{
-		width: 100%;
-		height: auto;
 		margin: 40px 0 10px 0;
 	}
 
