@@ -2,21 +2,22 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-	<title>Life Cover - Ace-Care</title>
-  <!-- Favicon -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ace-Care Insurance Home</title>
+<!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  
+
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="file:///D:/Movies/ace/bootstrap-4.4.1-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-  <link rel="stylesheet" type="text/css" href="file:///D:/Movies/ace/bootstrap-4.4.1-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
   <script type="text/javascript" src="file:///D:/Movies/ace/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+  <script src="js/scripts.js" type="text/javascript"></script>
 </head>
 <body>
 
@@ -66,84 +67,54 @@
   </nav>
 </section>
 
-<section class="lf_f">
+<section class="contact" id="contact">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-5 md animated fadeInDown delay-0.5s">
-        <h2>LIFE <br>INSURANCE</h2>
-        <p>Tailor-made life cover to suit your individual needs</p>
-        <a href="insurance.html"><button class="btn btn-default inline_btn">GET LIFE INSURANCE</button></a>
-        <a href="#lf_info"><button class="btn btn-success inline_btn1">LEARN MORE</button></a>
-      </div>
-
-      <div class="col-md-6 animated fadeInDown delay-0.5s">
-        <img src="img/medicine.png">
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="lf">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="lf_1">
-        <div class="col-md-12">
-          <h3 class="text-center">Designed to make your life easier</h3>
-          <p class="text-center">Although we can’t prevent what life has in store for you, the very least we can do is make sure that your family will be provided for financially if you’re no longer able to do so.</p>
-        </div>
-      </div>
-    </div>
-<hr class="h_1">
-    <div class="row" id="lf_info">
-      <div class="col-md-6">
-        <img src="img/doctor_kk.png">
-      </div>
-
-      <div class="col-md-6">
-        <h1 class="p_color">Terminal Illness Benefit</h1>
-        <p>If you’re diagnosed with a terminal illness with less than a year to live, we will pay out 50% of the total insured amount (maximum limit of … applies).</p>
-      </div>
-    </div>
-<hr>
-    <div class="row row-reverse">
-      <div class="col-md-6">
-        <h1 class="p_color">Premium based on your specific risk profile</h1>
-        <p>Did you know that we base your life insurance premium on your specific risk profile? This means that if you’re a low-risk client, you’ll actually pay much less than somebody else who is a higher risk.</p>
-      </div>
-
-      <div class="col-md-6">
-        <img src="img/chart.png">
-      </div>
-    </div>
-<hr>
     <div class="row">
-      <div class="col-md-6">
-        <img src="img/data.png">
-      </div>
+      <div class="col-md-6 frm">
+        <form method="post" action="">
+          <h1 class="text-center q_h1">GET INSURANCE COVER </h1>
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" class="form-control" name="" placeholder="Name*" required="" autocomplete="off">
+          </div>
 
-      <div class="col-md-6">
-          <h1 class="p_color">Flexible premium structures</h1>
-          <p>We thought it best to provide you with flexible premium structures to accommodate your budget. You can choose whether to keep your premium fixed or you can increase your premium on an annual basis.  You can also choose to increase both the Apex amount and the premium by a set percentage every year. </p>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" class="form-control" name="" placeholder="someone@example.com*" required="" autocomplete="off">
+          </div>
+
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="number" class="form-control" name="" placeholder="07xxxxxxxx" required="" autocomplete="off">
+          </div>
+
+          <div class="form-group">
+            <label for="insurance_cover">Choose Insurance Cover</label>
+            <select class="form-control selectbox" id="insurance_cover" required="">
+            	<option disabled selected>Select</option>
+            	<option>Medical Insurance</option>
+            	<option>Life Insurance</option>
+            	<option>Business Insurance</option>
+            	<option>Property Insurance</option>
+            	<option>Car Insurance</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Subject</label>
+            <input type="text" class="form-control" name="" placeholder="subject*" required="" autocomplete="off">
+          </div>
+
+          <div class="form-group">
+            <label>Message</label>
+            <textarea rows="6" class="form-control" placeholder="Type your message here" required=""></textarea>
+          </div>
+          <a href=""><button class="btn btn-default">SEND</button></a>
+        </form>
       </div>
     </div>
   </div>
 </section>
-
-<section class="insure">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <p class="text-center">Are you ready to apply for insurance? Start here &nbsp;</p>
-      </div>
-
-      <div class="col-md-6">
-        <a href=""><button>GET LIFE INSURANCE</button></a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Footer -->
 
 <footer class="ftt">
   <div class="container">
@@ -165,7 +136,7 @@
           <ul class="footer-ul">
             <li><a href="#">About Ace-Care</a></li>
             <li><a href="#">Our Blog</a></li>
-            <li><a href="index.html#contact">Contact Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
           </ul>
         </div>
       </div>
@@ -186,13 +157,15 @@
 
     <div class="row">
       <div class="col-md-12 policy">
-        <p>©&nbsp;Ace-Care Insurance Agency&nbsp;&nbsp;&nbsp;&nbsp;All Rights Reserved <script type="text/javascript">document.write( new Date().getFullYear() );</script></p>
+        <p>Ace-Care Insurance Agency&nbsp;&nbsp;&nbsp;&nbsp;All Rights Reserved &nbsp;©&nbsp;<script type="text/javascript">document.write( new Date().getFullYear() );</script></p>
         <span>Licensed by the Insurance Regulatory Authority</span>
       </div>
     </div>
   </div>
 </footer>
 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js'></script><script  src="./script.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
