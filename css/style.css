@@ -612,7 +612,7 @@ html,body{
 /*.........Property Cover.........*/
 
 .pt_0{
-	padding: 10px 0 90px 0;
+	padding: 10px 0;
 }
 
 .pt{
@@ -670,11 +670,6 @@ html,body{
 	width: 400px;
 }
 
-.pr_2 img{
-	display: none;
-}
-
-
 /*.........Car Cover..........*/
 
 .cp h3{
@@ -719,10 +714,6 @@ html,body{
 
 .cg{
 	padding: 50px 0; 
-}
-
-.cg_1 img{
-	display: none;
 }
 
 .cg img{
