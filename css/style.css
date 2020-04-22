@@ -1215,10 +1215,7 @@ html,body{
 	}
 
 	.med img{
-		width: 100%;
-		height: auto;
 		position: absolute;
-		top: 0;
 		left: 0;
 		opacity: 0.1;
 	}
@@ -1282,13 +1279,10 @@ html,body{
 	}
 
 	.lf_f img{
-		width: 100%;
-		height: auto;
 		position: absolute;
-		top: 0;
 		left: 0;
 		opacity: 0.1;
-		margin-top: -300px;
+		margin-top: -380px;
 	}
 
 	.lf_f h2{
@@ -1360,7 +1354,7 @@ html,body{
 		position: absolute;
 		top: 0;
 		left: 0;
-		margin-top: -300px;
+		margin-top: -340px;
 		opacity: 0.2;
 	}
 
